@@ -1,0 +1,11 @@
+[run]
+source = assignment5
+branch = True
+omit =
+    tests/*
+    */__init__.py
+    assignment5/__init__.py
+
+[report]
+exclude_lines =
+    if __name__ == .__main__.:
